@@ -41,6 +41,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Продолжить с демосчетом"),
         "addRealAccButton":
             MessageLookupByLibrary.simpleMessage("Открыть счет"),
+        "briefcase": MessageLookupByLibrary.simpleMessage("Портфель"),
         "caseRefillAdd": MessageLookupByLibrary.simpleMessage("Пополнить"),
         "caseRefillCurrency":
             MessageLookupByLibrary.simpleMessage("Валюта пополнения"),
@@ -52,12 +53,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "caseRefillTitle":
             MessageLookupByLibrary.simpleMessage("Пополнить счет"),
         "caseRefillUSD": MessageLookupByLibrary.simpleMessage("USD"),
+        "catalog": MessageLookupByLibrary.simpleMessage("Каталог"),
         "inDevelopingText1": MessageLookupByLibrary.simpleMessage(
             "Данный раздел находится в разработке и команда lambda() была бы рада его доработать!"),
         "inDevelopingText2": MessageLookupByLibrary.simpleMessage(
             "Пока вы можете воспользоваться функционалом демосчета - это как настоящие инвестиции, только у вас бесконечное количество денег!"),
         "inDevelopingText3":
             MessageLookupByLibrary.simpleMessage("Made by lambda() with love!"),
+        "news": MessageLookupByLibrary.simpleMessage("Новости"),
+        "other": MessageLookupByLibrary.simpleMessage("Другое"),
         "regButtonContinue": MessageLookupByLibrary.simpleMessage("Продолжить"),
         "regNumberConfirmationText": MessageLookupByLibrary.simpleMessage(
             "Введите код из СМС отправленного на номер"),

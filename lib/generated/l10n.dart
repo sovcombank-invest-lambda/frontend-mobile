@@ -320,6 +320,46 @@ class S {
     );
   }
 
+  /// `Портфель`
+  String get briefcase {
+    return Intl.message(
+      'Портфель',
+      name: 'briefcase',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Каталог`
+  String get catalog {
+    return Intl.message(
+      'Каталог',
+      name: 'catalog',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Новости`
+  String get news {
+    return Intl.message(
+      'Новости',
+      name: 'news',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Другое`
+  String get other {
+    return Intl.message(
+      'Другое',
+      name: 'other',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Пополнить счет`
   String get caseRefillTitle {
     return Intl.message(

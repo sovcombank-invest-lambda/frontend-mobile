@@ -52,12 +52,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "caseRefillTitle":
             MessageLookupByLibrary.simpleMessage("Пополнить счет"),
         "caseRefillUSD": MessageLookupByLibrary.simpleMessage("USD"),
+        "catalog": MessageLookupByLibrary.simpleMessage("Каталог"),
         "inDevelopingText1": MessageLookupByLibrary.simpleMessage(
             "Данный раздел находится в разработке и команда lambda() была бы рада его доработать!"),
         "inDevelopingText2": MessageLookupByLibrary.simpleMessage(
             "Пока вы можете воспользоваться функционалом демосчета - это как настоящие инвестиции, только у вас бесконечное количество денег!"),
         "inDevelopingText3":
             MessageLookupByLibrary.simpleMessage("Made by lambda() with love!"),
+        "news": MessageLookupByLibrary.simpleMessage("Новости"),
+        "other": MessageLookupByLibrary.simpleMessage("Другое"),
         "regButtonContinue": MessageLookupByLibrary.simpleMessage("Continue"),
         "regNumberConfirmationText": MessageLookupByLibrary.simpleMessage(
             "Enter the code from the SMS sent to the number"),

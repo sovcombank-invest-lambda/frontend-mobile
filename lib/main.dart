@@ -43,7 +43,7 @@ class InvestApp extends StatelessWidget {
         fontFamily: 'SF UI Display',
         primaryColor: colorService.primaryColor()
       ),
-      home: CaseRefillScreen(),
+      home: MainScreen(),
       // initialRoute: Routes.welcomeScreen,
       // routes: {
       //   Routes.welcomeScreen: (context) => WelcomeScreen(),

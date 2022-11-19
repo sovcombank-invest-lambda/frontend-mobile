@@ -32,6 +32,11 @@
   "inDevelopingText2": "Пока вы можете воспользоваться функционалом демосчета - это как настоящие инвестиции, только у вас бесконечное количество денег!",
   "inDevelopingText3": "Made by lambda() with love!",
 
+  "briefcase": "Портфель",
+  "catalog": "Каталог",
+  "news": "Новости",
+  "other": "Другое",
+
   "caseRefillTitle": "Пополнить счет",
   "caseRefillRUB": "RUB",
   "caseRefillUSD": "USD",
