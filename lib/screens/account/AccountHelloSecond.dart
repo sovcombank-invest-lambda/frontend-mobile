@@ -4,6 +4,7 @@ import 'package:mobile_client/services/ColorService.dart';
 import 'package:mobile_client/ui/Buttons.dart';
 
 import '../../common_setup/Assets.dart';
+import '../../common_setup/Routes.dart';
 import '../../generated/l10n.dart';
 
 class AccountHelloSecondScreen extends StatelessWidget {
@@ -22,14 +23,12 @@ class AccountHelloSecondScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Text(S.current.accountHelloSecondText,
-                  style: const TextStyle(
-                      fontSize: 16)),
+                  style: const TextStyle(fontSize: 16)),
               const SizedBox(
                 height: 12,
               ),
               Text(S.current.accountHelloSecondText2,
-                  style: const TextStyle(
-                      fontSize: 16)),
+                  style: const TextStyle(fontSize: 16)),
               const SizedBox(
                 height: 38,
               ),
@@ -46,13 +45,17 @@ class AccountHelloSecondScreen extends StatelessWidget {
                   colorService: colorService,
                   title: S.current.accountHelloSecondButtonContinue,
                   onTap: () {}),
+              const SizedBox(
+                height: 12,
+              ),
               Align(
-                alignment: Alignment.center,
-                child: TextSmallButton(
+                  alignment: Alignment.center,
+                  child: TextSmallButton(
                     colorService: colorService,
                     title: S.current.accountHelloSecondNoNeed,
-                    onTap: () {}),
-              )
+                    onTap: () =>
+                        Navigator.pushNamed(context, Routes.inDeveloping),
+                  ))
             ],
           ),
         ),

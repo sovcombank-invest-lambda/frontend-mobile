@@ -29,7 +29,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "accountHelloSecondText": MessageLookupByLibrary.simpleMessage(
             "Администратор как можно быстрее рассмотрит вашу заявку. Мы обязательно пришлём вам уведомление."),
         "accountHelloSecondText2": MessageLookupByLibrary.simpleMessage(
-            "Вы можете попробовать демосчёт,\nпока ваша заявка обрабатывается."),
+            "Вы можете попробовать демосчёт, пока ваша заявка обрабатывается."),
         "accountHelloText": MessageLookupByLibrary.simpleMessage(
             "Откройте счёт бесплатно, дождитесь одобрения от администратора и начните инвестировать"),
         "addCodeCreateCodeInfoText": MessageLookupByLibrary.simpleMessage(
@@ -45,6 +45,8 @@ class MessageLookup extends MessageLookupByLibrary {
             "Данный раздел находится в разработке и команда lambda() была бы рада его доработать!"),
         "inDevelopingText2": MessageLookupByLibrary.simpleMessage(
             "Пока вы можете воспользоваться функционалом демосчета - это как настоящие инвестиции, только у вас бесконечное количество денег!"),
+        "inDevelopingText3":
+            MessageLookupByLibrary.simpleMessage("Made by lambda() with love!"),
         "regButtonContinue": MessageLookupByLibrary.simpleMessage("Продолжить"),
         "regNumberConfirmationText": MessageLookupByLibrary.simpleMessage(
             "Введите код из СМС отправленного на номер"),
@@ -53,7 +55,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "regRepeatCode":
             MessageLookupByLibrary.simpleMessage("Отправить код повторно"),
         "regText": MessageLookupByLibrary.simpleMessage(
-            "Введите номер телефона, чтобы войти \nили зарегистрироваться"),
+            "Введите номер телефона, чтобы войти или зарегистрироваться"),
         "regTitle": MessageLookupByLibrary.simpleMessage("Регистрация"),
         "welcomeButtonNextText": MessageLookupByLibrary.simpleMessage("Вперед"),
         "welcomeButtonSkipText":

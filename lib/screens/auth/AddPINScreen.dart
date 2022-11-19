@@ -179,6 +179,9 @@ class _AddPINScreenState extends State<AddPINScreen> {
                   Navigator.pushNamedAndRemoveUntil(
                       context, Routes.regScreen, (route) => false),
             ),
+            const SizedBox(
+              height: 28,
+            )
             // CodeDot(colored: true, colorService: colorService),
             // CodeDot(colored: false, colorService: colorService),
           ],

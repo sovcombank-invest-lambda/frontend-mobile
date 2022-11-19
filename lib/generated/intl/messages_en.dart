@@ -29,7 +29,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "accountHelloSecondText": MessageLookupByLibrary.simpleMessage(
             "The administrator will review your application as soon as possible. We will definitely send you a notification."),
         "accountHelloSecondText2": MessageLookupByLibrary.simpleMessage(
-            "You can try demo account,\nwhile your application is being processed."),
+            "You can try demo account,while your application is being processed."),
         "accountHelloText": MessageLookupByLibrary.simpleMessage(
             "Open an account for free, wait for approval from the administrator and start investing"),
         "addCodeCreateCodeInfoText": MessageLookupByLibrary.simpleMessage(
@@ -41,6 +41,12 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Continue with demo account"),
         "addRealAccButton":
             MessageLookupByLibrary.simpleMessage("Open an account"),
+        "inDevelopingText1": MessageLookupByLibrary.simpleMessage(
+            "Данный раздел находится в разработке и команда lambda() была бы рада его доработать!"),
+        "inDevelopingText2": MessageLookupByLibrary.simpleMessage(
+            "Пока вы можете воспользоваться функционалом демосчета - это как настоящие инвестиции, только у вас бесконечное количество денег!"),
+        "inDevelopingText3":
+            MessageLookupByLibrary.simpleMessage("Made by lambda() with love!"),
         "regButtonContinue": MessageLookupByLibrary.simpleMessage("Continue"),
         "regNumberConfirmationText": MessageLookupByLibrary.simpleMessage(
             "Enter the code from the SMS sent to the number"),
@@ -49,7 +55,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "regRepeatCode":
             MessageLookupByLibrary.simpleMessage("Send code again"),
         "regText": MessageLookupByLibrary.simpleMessage(
-            "Enter phone number to login\nor register"),
+            "Enter phone number to login or register"),
         "regTitle": MessageLookupByLibrary.simpleMessage("Registration"),
         "welcomeButtonNextText":
             MessageLookupByLibrary.simpleMessage("Forward"),

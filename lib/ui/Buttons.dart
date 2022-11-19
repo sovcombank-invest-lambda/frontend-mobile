@@ -33,7 +33,7 @@ class PrimaryButton extends StatelessWidget {
             child: Text(
               title,
               style: TextStyle(
-                  fontSize: 20,
+                  fontSize: 18,
                   fontWeight: FontWeight.w500,
                   color: (enabled)
                       ? Colors.white
@@ -74,7 +74,7 @@ class DefaultButton extends StatelessWidget {
             child: Text(
               title,
               style: TextStyle(
-                  fontSize: 20,
+                  fontSize: 18,
                   fontWeight: FontWeight.w500,
                   color: colorService.primaryColor()),
             ),

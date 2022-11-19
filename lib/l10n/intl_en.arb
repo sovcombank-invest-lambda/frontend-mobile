@@ -9,7 +9,7 @@
   "welcomeInfoText3": "Start investing with any amount",
 
   "regTitle": "Registration",
-  "regText": "Enter phone number to login\nor register",
+  "regText": "Enter phone number to login or register",
   "regButtonContinue": "Continue",
   "regNumberConfirmationTitle": "Number confirmation",
   "regNumberConfirmationText": "Enter the code from the SMS sent to the number",
@@ -24,7 +24,11 @@
   "addDemoAccButton": "Continue with demo account",
 
   "accountHelloSecondText": "The administrator will review your application as soon as possible. We will definitely send you a notification.",
-  "accountHelloSecondText2": "You can try demo account,\nwhile your application is being processed.",
+  "accountHelloSecondText2": "You can try demo account,while your application is being processed.",
   "accountHelloSecondButtonContinue": "Continue with demo account",
-  "accountHelloSecondNoNeed": "Not required"
+  "accountHelloSecondNoNeed": "Not required",
+
+  "inDevelopingText1": "Данный раздел находится в разработке и команда lambda() была бы рада его доработать!",
+  "inDevelopingText2": "Пока вы можете воспользоваться функционалом демосчета - это как настоящие инвестиции, только у вас бесконечное количество денег!",
+  "inDevelopingText3": "Made by lambda() with love!"
 }
