@@ -7,6 +7,7 @@ import 'package:mobile_client/screens/account/AccountHelloSecond.dart';
 import 'package:mobile_client/screens/auth/AddPINScreen.dart';
 import 'package:mobile_client/screens/auth/CodeInputScreen.dart';
 import 'package:mobile_client/screens/auth/RegScreen.dart';
+import 'package:mobile_client/screens/main/MainScreen.dart';
 import 'package:mobile_client/screens/welcome/WelcomeScreen.dart';
 import 'package:mobile_client/services/ColorService.dart';
 
@@ -40,17 +41,18 @@ class InvestApp extends StatelessWidget {
         fontFamily: 'SF UI Display',
         primaryColor: colorService.primaryColor()
       ),
-      initialRoute: Routes.welcomeScreen,
-      routes: {
-        Routes.welcomeScreen: (context) => WelcomeScreen(),
-        Routes.regScreen: (context) => RegScreen(),
-        Routes.codeScreen: (context) => CodeInputScreen(),
-        Routes.addPINScreen: (context) => AddPINScreen(),
-        Routes.accountHelloFirst: (context) => AccountHelloScreen(),
-        Routes.accountHelloSecond: (context) => AccountHelloSecondScreen(),
-        Routes.inDeveloping: (context) => InDevelopingScreen(),
-        Routes.homeScreen: (context) => AddPINScreen()
-      },
+      home: MainScreen(),
+      // initialRoute: Routes.welcomeScreen,
+      // routes: {
+      //   Routes.welcomeScreen: (context) => WelcomeScreen(),
+      //   Routes.regScreen: (context) => RegScreen(),
+      //   Routes.codeScreen: (context) => CodeInputScreen(),
+      //   Routes.addPINScreen: (context) => AddPINScreen(),
+      //   Routes.accountHelloFirst: (context) => AccountHelloScreen(),
+      //   Routes.accountHelloSecond: (context) => AccountHelloSecondScreen(),
+      //   Routes.inDeveloping: (context) => InDevelopingScreen(),
+      //   Routes.homeScreen: (context) => AddPINScreen()
+      // },
     );
   }
 }
