@@ -6,4 +6,6 @@ class A {
   static const String assetsAccountHelloFirst = "images/phoneInvest.png";
   static const String assetsAccountHelloSecond = "images/chest.png";
 
+  static const String assetsInDeveloping = "images/square.png";
+
 }

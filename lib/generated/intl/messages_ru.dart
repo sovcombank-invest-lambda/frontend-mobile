@@ -41,8 +41,10 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Продолжить с демосчетом"),
         "addRealAccButton":
             MessageLookupByLibrary.simpleMessage("Открыть счет"),
-        "inDevelopingText1": MessageLookupByLibrary.simpleMessage(""),
-        "inDevelopingText2": MessageLookupByLibrary.simpleMessage(""),
+        "inDevelopingText1": MessageLookupByLibrary.simpleMessage(
+            "Данный раздел находится в разработке и команда lambda() была бы рада его доработать!"),
+        "inDevelopingText2": MessageLookupByLibrary.simpleMessage(
+            "Пока вы можете воспользоваться функционалом демосчета - это как настоящие инвестиции, только у вас бесконечное количество денег!"),
         "regButtonContinue": MessageLookupByLibrary.simpleMessage("Продолжить"),
         "regNumberConfirmationText": MessageLookupByLibrary.simpleMessage(
             "Введите код из СМС отправленного на номер"),

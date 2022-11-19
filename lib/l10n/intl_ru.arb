@@ -28,6 +28,6 @@
   "accountHelloSecondButtonContinue": "Продолжить с демосчетом",
   "accountHelloSecondNoNeed": "Не требуется",
 
-  "inDevelopingText1":"",
-  "inDevelopingText2": ""
+  "inDevelopingText1": "Данный раздел находится в разработке и команда lambda() была бы рада его доработать!",
+  "inDevelopingText2": "Пока вы можете воспользоваться функционалом демосчета - это как настоящие инвестиции, только у вас бесконечное количество денег!"
 }

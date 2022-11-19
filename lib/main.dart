@@ -36,16 +36,17 @@ class InvestApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: 'SF UI Display',
       ),
-      initialRoute: Routes.welcomeScreen,
-      routes: {
-        Routes.welcomeScreen: (context) => WelcomeScreen(),
-        Routes.regScreen: (context) => RegScreen(),
-        Routes.codeScreen: (context) => CodeInputScreen(),
-        Routes.addPINScreen: (context) => AddPINScreen(),
-        Routes.accountHelloFirst: (context) => AccountHelloScreen(),
-        Routes.accountHelloSecond: (context) => AccountHelloSecondScreen(),
-        Routes.homeScreen: (context) => AddPINScreen()
-      },
+      home: InDevelopingScreen(),
+      // initialRoute: Routes.welcomeScreen,
+      // routes: {
+      //   Routes.welcomeScreen: (context) => WelcomeScreen(),
+      //   Routes.regScreen: (context) => RegScreen(),
+      //   Routes.codeScreen: (context) => CodeInputScreen(),
+      //   Routes.addPINScreen: (context) => AddPINScreen(),
+      //   Routes.accountHelloFirst: (context) => AccountHelloScreen(),
+      //   Routes.accountHelloSecond: (context) => AccountHelloSecondScreen(),
+      //   Routes.homeScreen: (context) => AddPINScreen()
+      // },
     );
   }
 }

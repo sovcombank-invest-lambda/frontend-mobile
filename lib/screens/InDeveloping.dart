@@ -24,29 +24,21 @@ class InDevelopingState extends State<InDevelopingScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
-              SizedBox(height: 97,),
-              Text(S.current.accountHelloSecondText,
-                  style: const TextStyle(
-                      fontSize: 16, fontWeight: FontWeight.w400)),
-              Text(S.current.accountHelloSecondText2,
-                  style: const TextStyle(
-                      fontSize: 16, fontWeight: FontWeight.w400)),
-              SizedBox(
-                height: 38,
-              ),
               ClipRRect(
                   borderRadius: BorderRadius.circular(16.0),
                   child: Image.asset(
                     'images/square.png',
                     fit: BoxFit.fitWidth,
                   )),
+              Text(S.current.inDevelopingText1,
+                  style: const TextStyle(
+                      fontSize: 16, fontWeight: FontWeight.w400)),
+              Text(S.current.inDevelopingText2,
+                  style: const TextStyle(
+                      fontSize: 16, fontWeight: FontWeight.w400)),
               SizedBox(
                 height: 25,
               ),
-              PrimaryButton(
-                  colorService: colorService,
-                  title: S.current.accountHelloSecondButtonContinue,
-                  onTap: () {}),
               Align(
                 alignment: Alignment.center,
                 child: TextSmallButton(
