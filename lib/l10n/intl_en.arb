@@ -1,0 +1,30 @@
+{
+  "welcomeButtonNextText": "Forward",
+  "welcomeButtonSkipText": "Skip",
+  "welcomeInfoTitle1": "Free account opening",
+  "welcomeInfoText1": "Open a brokerage or IIS",
+  "welcomeInfoTitle2": "Currency market",
+  "welcomeInfoText2": "Choose from a constantly expanding catalog",
+  "welcomeInfoTitle3": "No minimum amount",
+  "welcomeInfoText3": "Start investing with any amount",
+
+  "regTitle": "Registration",
+  "regText": "Enter phone number to login\nor register",
+  "regButtonContinue": "Continue",
+  "regNumberConfirmationTitle": "Number confirmation",
+  "regNumberConfirmationText": "Enter the code from the SMS sent to the number",
+  "regRepeatCode": "Send code again",
+
+  "addCodeCreateCodeText": "Создание PIN-кода",
+  "addCodeCreateCodeInfoText": "Вы можете использовать PIN-код для быстрого доступа к приложению",
+  "addCodeLogout": "Logout",
+
+  "accountHelloText": "Open an account for free, wait for approval from the administrator and start investing",
+  "addRealAccButton": "Open an account",
+  "addDemoAccButton": "Continue with demo account",
+
+  "accountHelloSecondText": "The administrator will review your application as soon as possible. We will definitely send you a notification.",
+  "accountHelloSecondText2": "You can try demo account,\nwhile your application is being processed.",
+  "accountHelloSecondButtonContinue": "Continue with demo account",
+  "accountHelloSecondNoNeed": "Not required"
+}

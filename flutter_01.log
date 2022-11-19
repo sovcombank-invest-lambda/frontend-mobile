@@ -1,0 +1,78 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run -d chrome
+
+## exception
+
+WipError: WipError -32000 Forbidden
+
+```
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 3.3.8, on macOS 13.1 22C5033e darwin-x64, locale ru-RU)
+    • Flutter version 3.3.8 on channel stable at /Users/thevladoss/flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision 52b3dc25f6 (10 days ago), 2022-11-09 12:09:26 +0800
+    • Engine revision 857bd6b74c
+    • Dart version 2.18.4
+    • DevTools version 2.15.0
+
+[!] Android toolchain - develop for Android devices (Android SDK version 33.0.0)
+    • Android SDK at /Users/thevladoss/Library/Android/sdk
+    ✗ cmdline-tools component is missing
+      Run `path/to/sdkmanager --install "cmdline-tools;latest"`
+      See https://developer.android.com/studio/command-line for more details.
+    ✗ Android license status unknown.
+      Run `flutter doctor --android-licenses` to accept the SDK licenses.
+      See https://flutter.dev/docs/get-started/install/macos#android-setup for more details.
+
+[!] Xcode - develop for iOS and macOS
+    ✗ Xcode installation is incomplete; a full installation is necessary for iOS development.
+      Download at: https://developer.apple.com/xcode/download/
+      Or install Xcode via the App Store.
+      Once installed, run:
+        sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
+        sudo xcodebuild -runFirstLaunch
+    • CocoaPods version 1.11.3
+
+[✓] Chrome - develop for the web
+    • CHROME_EXECUTABLE = /Applications/Yandex.app/Contents/MacOS/Yandex
+
+[✓] Android Studio (version 2021.3)
+    • Android Studio at /Users/thevladoss/Library/Application
+      Support/JetBrains/Toolbox/apps/AndroidStudio/ch-0/213.7172.25.2113.9123335/Android Studio.app/Contents
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    • Java version OpenJDK Runtime Environment (build 11.0.13+0-b1751.21-8125866)
+
+[✓] IntelliJ IDEA Ultimate Edition (version 2022.2.3)
+    • IntelliJ at /Users/thevladoss/Applications/JetBrains Toolbox/IntelliJ IDEA Ultimate.app
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+
+[✓] IntelliJ IDEA Ultimate Edition (version 2022.2.3)
+    • IntelliJ at /Users/thevladoss/Library/Application
+      Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/222.4345.14/IntelliJ IDEA.app
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+
+[✓] Connected device (1 available)
+    • Chrome (web) • chrome • web-javascript • Yandex 22.9.1.1145
+
+[✓] HTTP Host Availability
+    • All required HTTP hosts are available
+
+! Doctor found issues in 2 categories.
+```

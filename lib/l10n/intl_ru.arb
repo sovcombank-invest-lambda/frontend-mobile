@@ -1,0 +1,33 @@
+{
+  "welcomeButtonNextText": "Вперед",
+  "welcomeButtonSkipText": "Пропустить",
+  "welcomeInfoTitle1": "Бесплатное открытие счёта",
+  "welcomeInfoText1": "Откройте брокерский или ИИС",
+  "welcomeInfoTitle2": "Валютный рынок",
+  "welcomeInfoText2": "Выбирайте из каталога, который постоянно пополняется",
+  "welcomeInfoTitle3": "Без всяких минимальных сумм",
+  "welcomeInfoText3": "Начни инвестировать с любой суммы",
+
+  "regTitle": "Регистрация",
+  "regText": "Введите номер телефона, чтобы войти \nили зарегистрироваться",
+  "regButtonContinue": "Продолжить",
+  "regNumberConfirmationTitle": "Подтверждение номера",
+  "regNumberConfirmationText": "Введите код из СМС отправленного на номер",
+  "regRepeatCode": "Отправить код повторно",
+
+  "addCodeCreateCodeText": "Создание PIN-кода",
+  "addCodeCreateCodeInfoText": "Вы можете использовать PIN-код для быстрого доступа к приложению",
+  "addCodeLogout": "Выйти",
+
+  "accountHelloText": "Откройте счёт бесплатно, дождитесь одобрения от администратора и начните инвестировать",
+  "addRealAccButton": "Открыть счет",
+  "addDemoAccButton": "Продолжить с демосчетом",
+
+  "accountHelloSecondText": "Администратор как можно быстрее рассмотрит вашу заявку. Мы обязательно пришлём вам уведомление.",
+  "accountHelloSecondText2": "Вы можете попробовать демосчёт,\nпока ваша заявка обрабатывается.",
+  "accountHelloSecondButtonContinue": "Продолжить с демосчетом",
+  "accountHelloSecondNoNeed": "Не требуется",
+
+  "inDevelopingText1":"",
+  "inDevelopingText2": ""
+}
