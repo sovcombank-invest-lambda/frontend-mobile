@@ -21,7 +21,7 @@ class CaseRefillScreen extends StatefulWidget {
 class _CaseRefillScreenState extends State<CaseRefillScreen> {
   final colorService = Injector().get<ColorService>();
 
-  final PageController _pageController = PageController();
+  final PageController _pageController = PageController(viewportFraction: 1 / 1.15);
 
   double _currentPagePosition = 0.0;
 

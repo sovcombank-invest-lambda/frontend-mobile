@@ -18,7 +18,7 @@ class CaseRefillAccountWidget extends StatelessWidget {
           borderRadius: BorderRadius.circular(16),
           color: colorService.backgroundCurrencySliderColor()),
       padding: const EdgeInsets.all(20.0),
-      margin: const EdgeInsets.symmetric(horizontal: 28),
+      margin: const EdgeInsets.symmetric(horizontal: 7),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         mainAxisAlignment: MainAxisAlignment.center,
