@@ -350,10 +350,10 @@ class S {
     );
   }
 
-  /// `Другое`
+  /// `Профиль`
   String get other {
     return Intl.message(
-      'Другое',
+      'Профиль',
       name: 'other',
       desc: '',
       args: [],

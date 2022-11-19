@@ -61,7 +61,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "inDevelopingText3":
             MessageLookupByLibrary.simpleMessage("Made by lambda() with love!"),
         "news": MessageLookupByLibrary.simpleMessage("Новости"),
-        "other": MessageLookupByLibrary.simpleMessage("Другое"),
+        "other": MessageLookupByLibrary.simpleMessage("Профиль"),
         "regButtonContinue": MessageLookupByLibrary.simpleMessage("Продолжить"),
         "regNumberConfirmationText": MessageLookupByLibrary.simpleMessage(
             "Введите код из СМС отправленного на номер"),
