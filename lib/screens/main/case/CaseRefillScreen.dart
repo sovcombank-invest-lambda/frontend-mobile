@@ -91,7 +91,7 @@ class _CaseRefillScreenState extends State<CaseRefillScreen> {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 28.0),
               child: Text(
-                S.current.caseRefillTitle,
+                S.current.caseRefillCurrency,
                 style: const TextStyle(fontSize: 16.0, fontWeight: FontWeight.w500),
               ),
             ),
