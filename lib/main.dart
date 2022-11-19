@@ -8,6 +8,7 @@ import 'package:mobile_client/screens/auth/AddPINScreen.dart';
 import 'package:mobile_client/screens/auth/CodeInputScreen.dart';
 import 'package:mobile_client/screens/auth/RegScreen.dart';
 import 'package:mobile_client/screens/main/MainScreen.dart';
+import 'package:mobile_client/screens/main/case/CaseRefillScreen.dart';
 import 'package:mobile_client/screens/welcome/WelcomeScreen.dart';
 import 'package:mobile_client/services/ColorService.dart';
 
@@ -38,10 +39,11 @@ class InvestApp extends StatelessWidget {
       ],
       supportedLocales: S.delegate.supportedLocales,
       theme: ThemeData(
+        backgroundColor: colorService.backgroundColor(),
         fontFamily: 'SF UI Display',
         primaryColor: colorService.primaryColor()
       ),
-      home: MainScreen(),
+      home: CaseRefillScreen(),
       // initialRoute: Routes.welcomeScreen,
       // routes: {
       //   Routes.welcomeScreen: (context) => WelcomeScreen(),

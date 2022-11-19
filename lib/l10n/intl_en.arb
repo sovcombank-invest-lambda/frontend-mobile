@@ -30,5 +30,14 @@
 
   "inDevelopingText1": "Данный раздел находится в разработке и команда lambda() была бы рада его доработать!",
   "inDevelopingText2": "Пока вы можете воспользоваться функционалом демосчета - это как настоящие инвестиции, только у вас бесконечное количество денег!",
-  "inDevelopingText3": "Made by lambda() with love!"
+  "inDevelopingText3": "Made by lambda() with love!",
+
+  "caseRefillTitle": "Пополнить счет",
+  "caseRefillRUB": "RUB",
+  "caseRefillUSD": "USD",
+  "caseRefillEUR": "EUR",
+  "caseRefillDemo": "Демосчет",
+  "caseRefillCurrency": "Валюта пополнения",
+  "caseRefillEnterField": "Введите сумму",
+  "caseRefillAdd": "Пополнить"
 }

@@ -3,6 +3,7 @@ import 'package:flutter_simple_dependency_injection/injector.dart';
 import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
 import 'package:mobile_client/services/ColorService.dart';
 import 'package:mobile_client/ui/Buttons.dart';
+import 'package:mobile_client/ui/Fields.dart';
 
 import '../../common_setup/Routes.dart';
 import '../../generated/l10n.dart';
@@ -33,7 +34,8 @@ class RegScreenState extends State<RegScreen> {
               ),
               Text(
                 S.current.regTitle,
-                style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w500),
+                style:
+                    const TextStyle(fontSize: 24, fontWeight: FontWeight.w500),
               ),
               const SizedBox(
                 height: 22,
@@ -45,19 +47,8 @@ class RegScreenState extends State<RegScreen> {
               const SizedBox(
                 height: 8,
               ),
-              TextField(
-                autofocus: true,
-                style: const TextStyle(fontSize: 20),
-                keyboardType: TextInputType.phone,
-                autocorrect: false,
-                cursorColor: colorService.primaryColor(),
-                decoration: InputDecoration(
-                  focusedBorder: UnderlineInputBorder(
-                    borderSide:
-                        BorderSide(color: colorService.primaryColor()),
-                  ),
-                ),
-                cursorWidth: 1.5,
+              PrimaryTextField(
+                colorService: colorService,
                 onChanged: (str) {
                   if (str.length == 18) {
                     setState(() {
@@ -71,10 +62,11 @@ class RegScreenState extends State<RegScreen> {
                     }
                   }
                 },
-                inputFormatters: [
-                  MaskTextInputFormatter(
-                      mask: '+# (###) ###-##-##', initialText: '7')
-                ],
+                maskTextInputFormatter: MaskTextInputFormatter(
+                    mask: '+# (###) ###-##-##'),
+                textInputType: TextInputType.phone,
+                style: const TextStyle(fontSize: 20),
+                hint: '',
               ),
               const SizedBox(height: 66),
               PrimaryButton(

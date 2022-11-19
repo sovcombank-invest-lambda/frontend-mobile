@@ -41,6 +41,17 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Продолжить с демосчетом"),
         "addRealAccButton":
             MessageLookupByLibrary.simpleMessage("Открыть счет"),
+        "caseRefillAdd": MessageLookupByLibrary.simpleMessage("Пополнить"),
+        "caseRefillCurrency":
+            MessageLookupByLibrary.simpleMessage("Валюта пополнения"),
+        "caseRefillDemo": MessageLookupByLibrary.simpleMessage("Демосчет"),
+        "caseRefillEUR": MessageLookupByLibrary.simpleMessage("EUR"),
+        "caseRefillEnterField":
+            MessageLookupByLibrary.simpleMessage("Введите сумму"),
+        "caseRefillRUB": MessageLookupByLibrary.simpleMessage("RUB"),
+        "caseRefillTitle":
+            MessageLookupByLibrary.simpleMessage("Пополнить счет"),
+        "caseRefillUSD": MessageLookupByLibrary.simpleMessage("USD"),
         "inDevelopingText1": MessageLookupByLibrary.simpleMessage(
             "Данный раздел находится в разработке и команда lambda() была бы рада его доработать!"),
         "inDevelopingText2": MessageLookupByLibrary.simpleMessage(

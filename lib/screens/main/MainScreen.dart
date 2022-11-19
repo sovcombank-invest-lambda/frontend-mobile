@@ -7,8 +7,7 @@ class MainScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: CaseRefillScreen(),
+      body: SafeArea(child: CaseRefillScreen()),
     );
   }
-
 }

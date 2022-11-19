@@ -319,6 +319,86 @@ class S {
       args: [],
     );
   }
+
+  /// `Пополнить счет`
+  String get caseRefillTitle {
+    return Intl.message(
+      'Пополнить счет',
+      name: 'caseRefillTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `RUB`
+  String get caseRefillRUB {
+    return Intl.message(
+      'RUB',
+      name: 'caseRefillRUB',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `USD`
+  String get caseRefillUSD {
+    return Intl.message(
+      'USD',
+      name: 'caseRefillUSD',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `EUR`
+  String get caseRefillEUR {
+    return Intl.message(
+      'EUR',
+      name: 'caseRefillEUR',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Демосчет`
+  String get caseRefillDemo {
+    return Intl.message(
+      'Демосчет',
+      name: 'caseRefillDemo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Валюта пополнения`
+  String get caseRefillCurrency {
+    return Intl.message(
+      'Валюта пополнения',
+      name: 'caseRefillCurrency',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Введите сумму`
+  String get caseRefillEnterField {
+    return Intl.message(
+      'Введите сумму',
+      name: 'caseRefillEnterField',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Пополнить`
+  String get caseRefillAdd {
+    return Intl.message(
+      'Пополнить',
+      name: 'caseRefillAdd',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
