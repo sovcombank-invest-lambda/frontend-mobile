@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_simple_dependency_injection/injector.dart';
 import 'package:mobile_client/screens/InDeveloping.dart';
-import 'package:mobile_client/screens/account/accountHelloFirst.dart';
-import 'package:mobile_client/screens/account/accountHelloSecond.dart';
+import 'package:mobile_client/screens/account/AccountHelloFirst.dart';
+import 'package:mobile_client/screens/account/AccountHelloSecond.dart';
 import 'package:mobile_client/screens/auth/AddPINScreen.dart';
 import 'package:mobile_client/screens/auth/CodeInput.dart';
 import 'package:mobile_client/screens/auth/RegScreen.dart';
@@ -36,15 +36,16 @@ class InvestApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: 'SF UI Display',
       ),
-      home: InDevelopingScreen(),
-      // initialRoute: Routes.welcomeScreen,
-      // routes: {
-      //   Routes.welcomeScreen: (context) => WelcomeScreen(),
-      //   Routes.regScreen: (context) => RegScreen(),
-      //   Routes.codeScreen: (context) => CodeInputScreen(),
-      //   Routes.addPINScreen: (context) => AddPINScreen(),
-        // Routes.homeScreen: (context) => AddPINScreen()
-      // },
+      initialRoute: Routes.welcomeScreen,
+      routes: {
+        Routes.welcomeScreen: (context) => WelcomeScreen(),
+        Routes.regScreen: (context) => RegScreen(),
+        Routes.codeScreen: (context) => CodeInputScreen(),
+        Routes.addPINScreen: (context) => AddPINScreen(),
+        Routes.accountHelloFirst: (context) => AccountHelloScreen(),
+        Routes.accountHelloSecond: (context) => AccountHelloSecondScreen(),
+        Routes.homeScreen: (context) => AddPINScreen()
+      },
     );
   }
 }

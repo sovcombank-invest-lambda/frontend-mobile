@@ -3,6 +3,7 @@ import 'package:flutter_simple_dependency_injection/injector.dart';
 import 'package:mobile_client/ui/Buttons.dart';
 import 'package:mobile_client/ui/Dots.dart';
 
+import '../../common_setup/Routes.dart';
 import '../../generated/l10n.dart';
 import '../../services/ColorService.dart';
 
@@ -172,9 +173,12 @@ class _AddPINScreenState extends State<AddPINScreen> {
               height: 72,
             ),
             TextSmallButton(
-                colorService: colorService,
-                title: S.current.addCodeLogout,
-                onTap: () {}),
+              colorService: colorService,
+              title: S.current.addCodeLogout,
+              onTap: () =>
+                  Navigator.pushNamedAndRemoveUntil(
+                      context, Routes.regScreen, (route) => false),
+            ),
             // CodeDot(colored: true, colorService: colorService),
             // CodeDot(colored: false, colorService: colorService),
           ],
@@ -184,10 +188,13 @@ class _AddPINScreenState extends State<AddPINScreen> {
   }
 
   _incrementPIN(String num) {
-    if (_PIN.length < 4) {
+    if (_PIN.length < 3) {
       setState(() {
         _PIN += num;
       });
+    } else {
+      Navigator.pushNamedAndRemoveUntil(
+          context, Routes.accountHelloFirst, (route) => false);
     }
   }
 
