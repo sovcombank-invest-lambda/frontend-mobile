@@ -18,36 +18,32 @@ class MainScreenState extends State<MainScreen> {
   int index = 0;
   bool isTapped = false;
 
-
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        bottomNavigationBar: BottomNavigationBar(
-          type: BottomNavigationBarType.fixed,
-          items: <BottomNavigationBarItem>[
-            BottomNavigationBarItem(
-              icon: Icon(Icons.cases_outlined),
-              label: S.current.briefcase,
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.search_rounded),
-              label: S.current.catalog,
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.newspaper),
-              label: S.current.news,
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.auto_awesome_motion),
-              label: S.current.other,
-            ),
-          ],
-          selectedItemColor: colorService.primaryColor(),
-          unselectedItemColor: colorService.unenabledTextColor(),
-
-        ),
+      bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
+        items: <BottomNavigationBarItem>[
+          BottomNavigationBarItem(
+            icon: Icon(Icons.cases_outlined),
+            label: S.current.briefcase,
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.search_rounded),
+            label: S.current.catalog,
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.newspaper),
+            label: S.current.news,
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.auto_awesome_motion),
+            label: S.current.other,
+          ),
+        ],
+        selectedItemColor: colorService.primaryColor(),
+        unselectedItemColor: colorService.unenabledTextColor(),
+      ),
     );
   }
 }

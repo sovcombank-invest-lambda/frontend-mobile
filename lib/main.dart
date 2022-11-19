@@ -1,19 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_simple_dependency_injection/injector.dart';
-import 'package:mobile_client/screens/InDevelopingScreen.dart';
-import 'package:mobile_client/screens/account/AccountHelloFirst.dart';
-import 'package:mobile_client/screens/account/AccountHelloSecond.dart';
-import 'package:mobile_client/screens/auth/AddPINScreen.dart';
-import 'package:mobile_client/screens/auth/CodeInputScreen.dart';
-import 'package:mobile_client/screens/auth/RegScreen.dart';
 import 'package:mobile_client/screens/main/MainScreen.dart';
-import 'package:mobile_client/screens/main/case/CaseRefillScreen.dart';
-import 'package:mobile_client/screens/welcome/WelcomeScreen.dart';
 import 'package:mobile_client/services/ColorService.dart';
 
 import 'common_setup/ModuleContainer.dart';
-import 'common_setup/Routes.dart';
 import 'generated/l10n.dart';
 
 void main() {
@@ -39,10 +30,9 @@ class InvestApp extends StatelessWidget {
       ],
       supportedLocales: S.delegate.supportedLocales,
       theme: ThemeData(
-        backgroundColor: colorService.backgroundColor(),
-        fontFamily: 'SF UI Display',
-        primaryColor: colorService.primaryColor()
-      ),
+          backgroundColor: colorService.backgroundColor(),
+          fontFamily: 'SF UI Display',
+          primaryColor: colorService.primaryColor()),
       home: MainScreen(),
       // initialRoute: Routes.welcomeScreen,
       // routes: {
