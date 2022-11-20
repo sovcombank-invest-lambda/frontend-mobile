@@ -44,7 +44,8 @@ class AccountHelloSecondScreen extends StatelessWidget {
               PrimaryButton(
                   colorService: colorService,
                   title: S.current.accountHelloSecondButtonContinue,
-                  onTap: () {}),
+                  onTap: () => Navigator.pushNamedAndRemoveUntil(
+                      context, Routes.homeScreen, (route) => false)),
               const SizedBox(
                 height: 12,
               ),

@@ -7,8 +7,9 @@ import '../common_setup/Assets.dart';
 
 class InDevelopingScreen extends StatelessWidget {
   final colorService = Injector().get<ColorService>();
+  final bool showBack;
 
-  InDevelopingScreen({Key? key}) : super(key: key);
+  InDevelopingScreen({Key? key, required this.showBack}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +18,7 @@ class InDevelopingScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Padding(
+            (showBack) ? Padding(
               padding: const EdgeInsets.symmetric(horizontal: 12.0),
               child: IconButton(
                 onPressed: () {
@@ -26,7 +27,7 @@ class InDevelopingScreen extends StatelessWidget {
                 color: colorService.primaryColor(),
                 icon: const Icon(Icons.arrow_back),
               ),
-            ),
+            ) : Container(),
             Expanded(
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 27),

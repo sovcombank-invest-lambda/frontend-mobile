@@ -31,7 +31,7 @@ class MainScreenState extends State<MainScreen> {
   Widget _buildBody() {
     switch (_index) {
       case 3:
-        return InDevelopingScreen();
+        return InDevelopingScreen(showBack: false,);
       default:
         return CaseMainScreen();
     }

@@ -43,7 +43,7 @@ class InvestApp extends StatelessWidget {
           fontFamily: 'SF UI Display',
           primaryColor: colorService.primaryColor()),
       // home: MainScreen(),
-      initialRoute: Routes.homeScreen,
+      initialRoute: Routes.welcomeScreen,
       routes: {
         Routes.welcomeScreen: (context) => WelcomeScreen(),
         Routes.regScreen: (context) => RegScreen(),
@@ -51,7 +51,7 @@ class InvestApp extends StatelessWidget {
         Routes.addPINScreen: (context) => AddPINScreen(),
         Routes.accountHelloFirstScreen: (context) => AccountHelloScreen(),
         Routes.accountHelloSecondScreen: (context) => AccountHelloSecondScreen(),
-        Routes.inDevelopingScreen: (context) => InDevelopingScreen(),
+        Routes.inDevelopingScreen: (context) => InDevelopingScreen(showBack: true,),
         Routes.mainAddScreen: (context) => CaseRefillScreen(),
         Routes.homeScreen: (context) => MainScreen()
       },

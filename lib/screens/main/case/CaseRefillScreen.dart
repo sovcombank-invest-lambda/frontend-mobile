@@ -126,7 +126,7 @@ class _CaseRefillScreenState extends State<CaseRefillScreen> {
               child: PrimaryButton(
                   colorService: colorService,
                   title: S.current.caseRefillAdd,
-                  onTap: () {}),
+                  onTap: () => Navigator.pop(context)),
             )
           ],
         ),

@@ -69,7 +69,7 @@ class CaseMainAccountWidget extends StatelessWidget {
                       colorService: colorService,
                       icon: Icons.restore,
                       color: colorService.unenabledTextColor(),
-                      onTap: () {},
+                      onTap: () => Navigator.pushNamed(context, Routes.inDevelopingScreen),
                     ),
                     SizedBox(
                       height: 6,
@@ -100,7 +100,7 @@ class CaseMainAccountWidget extends StatelessWidget {
                       colorService: colorService,
                       icon: Icons.turn_left,
                       color: colorService.unenabledTextColor(),
-                      onTap: () {},
+                      onTap: () => Navigator.pushNamed(context, Routes.inDevelopingScreen),
                     ),
                     SizedBox(
                       height: 6,

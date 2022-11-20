@@ -47,7 +47,8 @@ class AccountHelloScreen extends StatelessWidget {
               DefaultButton(
                   colorService: colorService,
                   title: S.current.addDemoAccButton,
-                  onTap: () {}),
+                  onTap: () => Navigator.pushNamedAndRemoveUntil(
+                      context, Routes.homeScreen, (route) => false)),
             ],
           ),
         ),
