@@ -4,6 +4,7 @@ import 'package:mobile_client/common_setup/Routes.dart';
 import 'package:mobile_client/services/ColorService.dart';
 import 'package:mobile_client/ui/Buttons.dart';
 
+import '../../../services/ColorService.dart';
 import '../../../generated/l10n.dart';
 
 class CaseRefillDoneScreen extends StatefulWidget {
@@ -29,46 +30,49 @@ class _CaseRefillDoneScreenState extends State<CaseRefillDoneScreen> {
                   children: [
                     Align(
                       alignment: Alignment.bottomCenter,
-                      child: Container(
-                        height: 300,
-                        alignment: Alignment.center,
-                        decoration: const BoxDecoration(color: Colors.white),
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            const Text(
-                              "Деньги зачислены",
-                              style: TextStyle(
-                                  color: Colors.black,
-                                  fontWeight: FontWeight.w500,
-                                  fontSize: 16),
-                            ),
-                            const SizedBox(height: 4),
-                            const Text(
-                              "25 000 ₽",
-                              style: TextStyle(
-                                  color: Color(0xff39B045),
-                                  fontWeight: FontWeight.w500,
-                                  fontSize: 36),
-                            ),
-                            const SizedBox(height: 16),
-                            Container(
-                              height: 35,
-                              decoration: const BoxDecoration(
-                                  color: Color(0xffE5EAF0),
-                                  shape: BoxShape.circle),
-                              padding: EdgeInsets.all(9),
-                              child: Image.asset("images/money.png"),
-                            ),
-                            const SizedBox(height: 7),
-                            const Text(
-                              "История",
-                              style: TextStyle(
-                                  fontWeight: FontWeight.w400,
-                                  fontSize: 10,
-                                  color: Colors.black),
-                            )
-                          ],
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(16),
+                        child: Container(
+                          height: 300,
+                          alignment: Alignment.center,
+                          decoration: const BoxDecoration(color: Colors.white),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              const Text(
+                                "Деньги зачислены",
+                                style: TextStyle(
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.w500,
+                                    fontSize: 16),
+                              ),
+                              const SizedBox(height: 4),
+                              const Text(
+                                "25 000 ₽",
+                                style: TextStyle(
+                                    color: Color(0xff39B045),
+                                    fontWeight: FontWeight.w500,
+                                    fontSize: 36),
+                              ),
+                              const SizedBox(height: 16),
+                              Container(
+                                height: 35,
+                                decoration: const BoxDecoration(
+                                    color: Color(0xffE5EAF0),
+                                    shape: BoxShape.circle),
+                                padding: EdgeInsets.all(9),
+                                child: Image.asset("images/money.png"),
+                              ),
+                              const SizedBox(height: 7),
+                              const Text(
+                                "История",
+                                style: TextStyle(
+                                    fontWeight: FontWeight.w400,
+                                    fontSize: 10,
+                                    color: Colors.black),
+                              )
+                            ],
+                          ),
                         ),
                       ),
                     ),
@@ -78,8 +82,8 @@ class _CaseRefillDoneScreenState extends State<CaseRefillDoneScreen> {
                           height: 90,
                           width: 90,
                           alignment: Alignment.center,
-                          decoration: const BoxDecoration(
-                            color: Color(0xff182E51),
+                          decoration: BoxDecoration(
+                            color: colorService.primaryColor(),
                             shape: BoxShape.circle,
                           ),
                           child: const Icon(
@@ -94,7 +98,8 @@ class _CaseRefillDoneScreenState extends State<CaseRefillDoneScreen> {
               PrimaryButton(
                   colorService: colorService,
                   title: S.current.buttonOK,
-                  onTap: () => Navigator.pushNamedAndRemoveUntil(context, Routes.homeScreen, (route) => false))
+                  onTap: () => Navigator.pushNamedAndRemoveUntil(
+                      context, Routes.homeScreen, (route) => false))
             ],
           ),
         ),
