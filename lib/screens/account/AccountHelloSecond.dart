@@ -54,7 +54,7 @@ class AccountHelloSecondScreen extends StatelessWidget {
                     colorService: colorService,
                     title: S.current.accountHelloSecondNoNeed,
                     onTap: () =>
-                        Navigator.pushNamed(context, Routes.inDeveloping),
+                        Navigator.pushNamed(context, Routes.inDevelopingScreen),
                   ))
             ],
           ),

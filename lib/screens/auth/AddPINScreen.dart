@@ -197,7 +197,7 @@ class _AddPINScreenState extends State<AddPINScreen> {
       });
     } else {
       Navigator.pushNamedAndRemoveUntil(
-          context, Routes.accountHelloFirst, (route) => false);
+          context, Routes.accountHelloFirstScreen, (route) => false);
     }
   }
 

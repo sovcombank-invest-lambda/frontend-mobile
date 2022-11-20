@@ -2,6 +2,7 @@ import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_simple_dependency_injection/injector.dart';
 
+import '../../../common_setup/Assets.dart';
 import '../../../generated/l10n.dart';
 import '../../../services/ColorService.dart';
 import 'CaseMainAccountWidget.dart';
@@ -89,7 +90,10 @@ class _CaseMainScreenState extends State<CaseMainScreen> {
           SizedBox(
             height: 30,
           ),
-          
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 28.0),
+            child: Image.asset(A.assetsCaseCurrency),
+          )
         ],
       ),
     );

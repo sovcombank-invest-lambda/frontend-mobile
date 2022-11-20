@@ -8,4 +8,6 @@ class A {
   static const String assetsAccountHelloSecond = "images/chest.png";
 
   static const String assetsInDeveloping = "images/square.png";
+
+  static const String assetsCaseCurrency = "images/currencies.png";
 }

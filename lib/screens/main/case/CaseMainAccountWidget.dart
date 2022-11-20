@@ -85,7 +85,7 @@ class CaseMainAccountWidget extends StatelessWidget {
                       colorService: colorService,
                       icon: Icons.add,
                       color: colorService.primaryColor(),
-                      onTap: () => Navigator.pushNamed(context, Routes.mainAdd),
+                      onTap: () => Navigator.pushNamed(context, Routes.mainAddScreen),
                     ),
                     SizedBox(
                       height: 6,

@@ -40,7 +40,7 @@ class AccountHelloScreen extends StatelessWidget {
                   colorService: colorService,
                   title: S.current.addRealAccButton,
                   onTap: () => Navigator.pushNamedAndRemoveUntil(
-                      context, Routes.accountHelloSecond, (route) => false)),
+                      context, Routes.accountHelloSecondScreen, (route) => false)),
               const SizedBox(
                 height: 17,
               ),

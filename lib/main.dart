@@ -43,18 +43,17 @@ class InvestApp extends StatelessWidget {
           fontFamily: 'SF UI Display',
           primaryColor: colorService.primaryColor()),
       // home: MainScreen(),
-      initialRoute: Routes.main,
+      initialRoute: Routes.homeScreen,
       routes: {
         Routes.welcomeScreen: (context) => WelcomeScreen(),
         Routes.regScreen: (context) => RegScreen(),
         Routes.codeScreen: (context) => CodeInputScreen(),
         Routes.addPINScreen: (context) => AddPINScreen(),
-        Routes.accountHelloFirst: (context) => AccountHelloScreen(),
-        Routes.accountHelloSecond: (context) => AccountHelloSecondScreen(),
-        Routes.inDeveloping: (context) => InDevelopingScreen(),
-        Routes.main: (context) => MainScreen(),
-        Routes.mainAdd: (context) => CaseRefillScreen(),
-        Routes.homeScreen: (context) => AddPINScreen()
+        Routes.accountHelloFirstScreen: (context) => AccountHelloScreen(),
+        Routes.accountHelloSecondScreen: (context) => AccountHelloSecondScreen(),
+        Routes.inDevelopingScreen: (context) => InDevelopingScreen(),
+        Routes.mainAddScreen: (context) => CaseRefillScreen(),
+        Routes.homeScreen: (context) => MainScreen()
       },
     );
   }
