@@ -12,7 +12,7 @@ import 'package:mobile_client/screens/main/case/CaseRefillScreen.dart';
 import 'package:mobile_client/screens/main/case/CaseRefillDoneScreen.dart';
 import 'package:mobile_client/screens/welcome/WelcomeScreen.dart';
 import 'package:mobile_client/services/ColorService.dart';
-import 'package:mobile_client/screens/main/news.dart';
+import 'package:mobile_client/screens/main/news/NewsScreen.dart';
 
 import 'common_setup/ModuleContainer.dart';
 import 'common_setup/Routes.dart';
@@ -46,16 +46,16 @@ class InvestApp extends StatelessWidget {
           primaryColor: colorService.primaryColor()),
       initialRoute: Routes.homeScreen,
       routes: {
-        Routes.welcomeScreen: (context) => WelcomeScreen(),
-        Routes.regScreen: (context) => RegScreen(),
-        Routes.codeScreen: (context) => CodeInputScreen(),
-        Routes.addPINScreen: (context) => AddPINScreen(),
+        Routes.welcomeScreen: (context) => const WelcomeScreen(),
+        Routes.regScreen: (context) => const RegScreen(),
+        Routes.codeScreen: (context) => const CodeInputScreen(),
+        Routes.addPINScreen: (context) => const AddPINScreen(),
         Routes.accountHelloFirstScreen: (context) => AccountHelloScreen(),
         Routes.accountHelloSecondScreen: (context) => AccountHelloSecondScreen(),
         Routes.inDevelopingScreen: (context) => InDevelopingScreen(showBack: true,),
-        Routes.mainAddScreen: (context) => CaseRefillScreen(),
-        Routes.mainAddDoneScreen: (context) => CaseRefillDoneScreen(),
-        Routes.homeScreen: (context) => MainScreen()
+        Routes.mainAddScreen: (context) => const CaseRefillScreen(),
+        Routes.mainAddDoneScreen: (context) => const CaseRefillDoneScreen(),
+        Routes.homeScreen: (context) => const MainScreen()
       },
     );
   }

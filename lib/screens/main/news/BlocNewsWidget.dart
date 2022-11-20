@@ -1,16 +1,15 @@
 import 'package:flutter/material.dart';
 
-import '../../generated/l10n.dart';
-import '../common_setup/Assets.dart';
+import '../../../common_setup/Assets.dart';
 
-class BlockNews extends StatefulWidget {
-  const BlockNews({Key? key}) : super(key: key);
+class BlockNewsWidget extends StatefulWidget {
+  const BlockNewsWidget({Key? key}) : super(key: key);
 
   @override
-  State<BlockNews> createState() => _BlockNewsState();
+  State<BlockNewsWidget> createState() => _BlockNewsWidgetState();
 }
 
-class _BlockNewsState extends State<BlockNews> {
+class _BlockNewsWidgetState extends State<BlockNewsWidget> {
 
   @override
   Widget build(BuildContext context) => Container(
@@ -38,6 +37,7 @@ class _BlockNewsState extends State<BlockNews> {
                       const SizedBox(width: 13),
                       Flexible(
                         child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
                           children: const [
                             Text(
                               'Юань (CNY)',
@@ -60,7 +60,8 @@ class _BlockNewsState extends State<BlockNews> {
                       ),
                       const Spacer(),
                       const Text(
-                          "ИДЕЯ",
+                          "НИЗКИЕ\nРИСКИ",
+                          textAlign: TextAlign.right,
                           style: TextStyle(
                               fontWeight: FontWeight.w400,
                               fontSize: 11,
