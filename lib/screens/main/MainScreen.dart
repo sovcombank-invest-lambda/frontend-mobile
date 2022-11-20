@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_simple_dependency_injection/injector.dart';
 import 'package:mobile_client/screens/InDevelopingScreen.dart';
+import 'package:mobile_client/screens/main/catalog/CatalogScreen.dart';
 import 'package:mobile_client/services/ColorService.dart';
 
 import '../../generated/l10n.dart';
@@ -30,6 +31,8 @@ class MainScreenState extends State<MainScreen> {
 
   Widget _buildBody() {
     switch (_index) {
+      case 1:
+        return CatalogScreen();
       case 3:
         return InDevelopingScreen(showBack: false,);
       default:

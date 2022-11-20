@@ -8,4 +8,5 @@ abstract class Routes {
   static const String inDevelopingScreen = "/developing";
   static const String homeScreen = "/";
   static const String mainAddScreen = "/add";
+  static const String mainAddDoneScreen = "/add/done";
 }
