@@ -499,6 +499,46 @@ class S {
       args: [],
     );
   }
+
+  /// `Юань (CNY)`
+  String get chinaMoneyText {
+    return Intl.message(
+      'Юань (CNY)',
+      name: 'chinaMoneyText',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Прогнозируемая доходность: 2,3% за 1 неделю`
+  String get chinaProfitText {
+    return Intl.message(
+      'Прогнозируемая доходность: 2,3% за 1 неделю',
+      name: 'chinaProfitText',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Банковский сектор Китая растет вместе\nс восстановлением экономики`
+  String get chinaNewsText {
+    return Intl.message(
+      'Банковский сектор Китая растет вместе\nс восстановлением экономики',
+      name: 'chinaNewsText',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Ок`
+  String get buttonOK {
+    return Intl.message(
+      'Ок',
+      name: 'buttonOK',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

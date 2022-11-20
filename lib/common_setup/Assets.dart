@@ -10,4 +10,7 @@ class A {
   static const String assetsInDeveloping = "images/square.png";
 
   static const String assetsCaseCurrency = "images/currencies.png";
+
+  static const String assetsSovcombankBackground = "images/sovcombank_background.png";
+  static const String assetsChina = "images/china.png";
 }

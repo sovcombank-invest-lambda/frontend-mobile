@@ -42,6 +42,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "addRealAccButton":
             MessageLookupByLibrary.simpleMessage("Открыть счет"),
         "briefcase": MessageLookupByLibrary.simpleMessage("Портфель"),
+        "buttonOK": MessageLookupByLibrary.simpleMessage("Ок"),
         "caseMainAdd": MessageLookupByLibrary.simpleMessage("Пополнить"),
         "caseMainAllTime": MessageLookupByLibrary.simpleMessage("за все время"),
         "caseMainCurrencies": MessageLookupByLibrary.simpleMessage("Валюты"),
@@ -60,6 +61,11 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Пополнить счет"),
         "caseRefillUSD": MessageLookupByLibrary.simpleMessage("USD"),
         "catalog": MessageLookupByLibrary.simpleMessage("Каталог"),
+        "chinaMoneyText": MessageLookupByLibrary.simpleMessage("Юань (CNY)"),
+        "chinaNewsText": MessageLookupByLibrary.simpleMessage(
+            "Банковский сектор Китая растет вместе\nс восстановлением экономики"),
+        "chinaProfitText": MessageLookupByLibrary.simpleMessage(
+            "Прогнозируемая доходность: 2,3% за 1 неделю"),
         "inDevelopingText1": MessageLookupByLibrary.simpleMessage(
             "Данный раздел находится в разработке и команда lambda() была бы рада его доработать!"),
         "inDevelopingText2": MessageLookupByLibrary.simpleMessage(
