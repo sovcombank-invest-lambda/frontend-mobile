@@ -44,5 +44,13 @@
   "caseRefillDemo": "Демосчет",
   "caseRefillCurrency": "Валюта пополнения",
   "caseRefillEnterField": "Введите сумму",
-  "caseRefillAdd": "Пополнить"
+  "caseRefillAdd": "Пополнить",
+
+  "caseMainTitle": "Мои счета",
+  "caseMainAllTime": "за все время",
+  "caseMainHistory": "История",
+  "caseMainAdd": "Пополнить",
+  "caseMainGet": "Вывести",
+  "caseMainCurrencies": "Валюты"
+
 }

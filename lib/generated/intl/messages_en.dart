@@ -41,6 +41,12 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Continue with demo account"),
         "addRealAccButton":
             MessageLookupByLibrary.simpleMessage("Open an account"),
+        "caseMainAdd": MessageLookupByLibrary.simpleMessage("Пополнить"),
+        "caseMainAllTime": MessageLookupByLibrary.simpleMessage("за все время"),
+        "caseMainCurrencies": MessageLookupByLibrary.simpleMessage("Валюты"),
+        "caseMainGet": MessageLookupByLibrary.simpleMessage("Вывести"),
+        "caseMainHistory": MessageLookupByLibrary.simpleMessage("История"),
+        "caseMainTitle": MessageLookupByLibrary.simpleMessage("Мои счета"),
         "caseRefillAdd": MessageLookupByLibrary.simpleMessage("Пополнить"),
         "caseRefillCurrency":
             MessageLookupByLibrary.simpleMessage("Валюта пополнения"),

@@ -1,10 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_simple_dependency_injection/injector.dart';
+import 'package:mobile_client/screens/InDevelopingScreen.dart';
+import 'package:mobile_client/screens/account/AccountHelloFirst.dart';
+import 'package:mobile_client/screens/account/AccountHelloSecond.dart';
+import 'package:mobile_client/screens/auth/AddPINScreen.dart';
+import 'package:mobile_client/screens/auth/CodeInputScreen.dart';
+import 'package:mobile_client/screens/auth/RegScreen.dart';
 import 'package:mobile_client/screens/main/MainScreen.dart';
+import 'package:mobile_client/screens/main/case/CaseRefillScreen.dart';
+import 'package:mobile_client/screens/welcome/WelcomeScreen.dart';
 import 'package:mobile_client/services/ColorService.dart';
 
 import 'common_setup/ModuleContainer.dart';
+import 'common_setup/Routes.dart';
 import 'generated/l10n.dart';
 
 void main() {
@@ -33,18 +42,20 @@ class InvestApp extends StatelessWidget {
           backgroundColor: colorService.backgroundColor(),
           fontFamily: 'SF UI Display',
           primaryColor: colorService.primaryColor()),
-      home: MainScreen(),
-      // initialRoute: Routes.welcomeScreen,
-      // routes: {
-      //   Routes.welcomeScreen: (context) => WelcomeScreen(),
-      //   Routes.regScreen: (context) => RegScreen(),
-      //   Routes.codeScreen: (context) => CodeInputScreen(),
-      //   Routes.addPINScreen: (context) => AddPINScreen(),
-      //   Routes.accountHelloFirst: (context) => AccountHelloScreen(),
-      //   Routes.accountHelloSecond: (context) => AccountHelloSecondScreen(),
-      //   Routes.inDeveloping: (context) => InDevelopingScreen(),
-      //   Routes.homeScreen: (context) => AddPINScreen()
-      // },
+      // home: MainScreen(),
+      initialRoute: Routes.main,
+      routes: {
+        Routes.welcomeScreen: (context) => WelcomeScreen(),
+        Routes.regScreen: (context) => RegScreen(),
+        Routes.codeScreen: (context) => CodeInputScreen(),
+        Routes.addPINScreen: (context) => AddPINScreen(),
+        Routes.accountHelloFirst: (context) => AccountHelloScreen(),
+        Routes.accountHelloSecond: (context) => AccountHelloSecondScreen(),
+        Routes.inDeveloping: (context) => InDevelopingScreen(),
+        Routes.main: (context) => MainScreen(),
+        Routes.mainAdd: (context) => CaseRefillScreen(),
+        Routes.homeScreen: (context) => AddPINScreen()
+      },
     );
   }
 }

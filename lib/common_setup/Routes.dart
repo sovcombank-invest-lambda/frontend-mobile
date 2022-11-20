@@ -6,5 +6,7 @@ abstract class Routes {
   static const String accountHelloFirst = "/account/first";
   static const String accountHelloSecond = "/account/second";
   static const String inDeveloping = "/developing";
+  static const String main = "/main";
+  static const String mainAdd = "/main/add";
   static const String homeScreen = "/";
 }

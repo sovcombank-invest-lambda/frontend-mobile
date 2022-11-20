@@ -439,6 +439,66 @@ class S {
       args: [],
     );
   }
+
+  /// `Мои счета`
+  String get caseMainTitle {
+    return Intl.message(
+      'Мои счета',
+      name: 'caseMainTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `за все время`
+  String get caseMainAllTime {
+    return Intl.message(
+      'за все время',
+      name: 'caseMainAllTime',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `История`
+  String get caseMainHistory {
+    return Intl.message(
+      'История',
+      name: 'caseMainHistory',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Пополнить`
+  String get caseMainAdd {
+    return Intl.message(
+      'Пополнить',
+      name: 'caseMainAdd',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Вывести`
+  String get caseMainGet {
+    return Intl.message(
+      'Вывести',
+      name: 'caseMainGet',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Валюты`
+  String get caseMainCurrencies {
+    return Intl.message(
+      'Валюты',
+      name: 'caseMainCurrencies',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

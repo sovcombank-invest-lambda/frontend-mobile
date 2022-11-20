@@ -190,3 +190,43 @@ class BackspaceCodeButton extends StatelessWidget {
     );
   }
 }
+
+class CircleButton extends StatelessWidget {
+  final ColorService colorService;
+  final IconData icon;
+  final Color color;
+  final VoidCallback onTap;
+
+  const CircleButton(
+      {super.key,
+      required this.colorService,
+      required this.icon,
+      required this.color,
+      required this.onTap});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: 35,
+      height: 35,
+      decoration: BoxDecoration(
+        shape: BoxShape.circle,
+        color: colorService.defaultColor(),
+      ),
+      child: ClipOval(
+        child: Material(
+          color: Colors.transparent,
+          child: InkWell(
+            onTap: onTap,
+            child: Center(
+                child: Icon(
+              icon,
+              size: 20,
+              color: color,
+            )),
+          ),
+        ),
+      ),
+    );
+  }
+}
