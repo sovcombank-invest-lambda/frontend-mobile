@@ -44,7 +44,7 @@ class InvestApp extends StatelessWidget {
           backgroundColor: colorService.backgroundColor(),
           fontFamily: 'SF UI Display',
           primaryColor: colorService.primaryColor()),
-      home: Refill(),
+      home: NewsScreen(),
       // initialRoute: Routes.welcomeScreen,
       // routes: {
       //   Routes.welcomeScreen: (context) => WelcomeScreen(),

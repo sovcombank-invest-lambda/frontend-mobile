@@ -97,7 +97,9 @@ class NewsScreenState extends State<NewsScreen> {
               padding: const EdgeInsets.symmetric(horizontal: 16),
               children: [
                 BlockNews(),
+                SizedBox(height: 28,),
                 BlockNews(),
+                SizedBox(height: 28,),
                 BlockNews(),
     ],
             ),

@@ -36,25 +36,27 @@ class _BlockNewsState extends State<BlockNews> {
                     children: [
                       Image.asset(A.assetsChina),
                       const SizedBox(width: 13),
-                      Column(
-                        children: const [
-                          Text(
-                            'S.current.chinaMoneyTexta,',
-                            style: TextStyle(
-                                fontWeight: FontWeight.w400,
-                                fontSize: 17,
-                                color: Colors.white
+                      Flexible(
+                        child: Column(
+                          children: const [
+                            Text(
+                              'Юань (CNY)',
+                              style: TextStyle(
+                                  fontWeight: FontWeight.w400,
+                                  fontSize: 17,
+                                  color: Colors.white
+                              ),
                             ),
-                          ),
-                          Text(
-                            "До 55,32% за 6 месяцев",
-                            style: TextStyle(
-                                fontWeight: FontWeight.w400,
-                                fontSize: 15,
-                                color: Color(0xffA3A5A7)
-                            ),
-                          )
-                        ],
+                            Text(
+                              "Прогнозируемая доходность: 2,3% за 1 неделю",
+                              style: TextStyle(
+                                  fontWeight: FontWeight.w400,
+                                  fontSize: 15,
+                                  color: Color(0xffA3A5A7)
+                              ),
+                            )
+                          ],
+                        ),
                       ),
                       const Spacer(),
                       const Text(
@@ -69,7 +71,7 @@ class _BlockNewsState extends State<BlockNews> {
                 ),
                 const Spacer(),
                 const Text(
-                    "Банковский сектор растет вместе с восстановлением экономики",
+                    "Банковский сектор Китая растет вместе\nс восстановлением экономики",
                     style: TextStyle(
                         fontWeight: FontWeight.w700,
                         fontSize: 24,
