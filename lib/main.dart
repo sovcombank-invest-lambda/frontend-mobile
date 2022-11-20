@@ -9,7 +9,7 @@ import 'package:mobile_client/screens/auth/CodeInputScreen.dart';
 import 'package:mobile_client/screens/auth/RegScreen.dart';
 import 'package:mobile_client/screens/main/MainScreen.dart';
 import 'package:mobile_client/screens/main/case/CaseRefillScreen.dart';
-import 'package:mobile_client/screens/main/case/Refill.dart';
+import 'package:mobile_client/screens/main/case/CaseRefillDoneScreen.dart';
 import 'package:mobile_client/screens/welcome/WelcomeScreen.dart';
 import 'package:mobile_client/services/ColorService.dart';
 import 'package:mobile_client/screens/main/news.dart';
@@ -44,19 +44,19 @@ class InvestApp extends StatelessWidget {
           backgroundColor: colorService.backgroundColor(),
           fontFamily: 'SF UI Display',
           primaryColor: colorService.primaryColor()),
-      home: NewsScreen(),
-      // initialRoute: Routes.welcomeScreen,
-      // routes: {
-      //   Routes.welcomeScreen: (context) => WelcomeScreen(),
-      //   Routes.regScreen: (context) => RegScreen(),
-      //   Routes.codeScreen: (context) => CodeInputScreen(),
-      //   Routes.addPINScreen: (context) => AddPINScreen(),
-      //   Routes.accountHelloFirstScreen: (context) => AccountHelloScreen(),
-      //   Routes.accountHelloSecondScreen: (context) => AccountHelloSecondScreen(),
-      //   Routes.inDevelopingScreen: (context) => InDevelopingScreen(showBack: true,),
-      //   Routes.mainAddScreen: (context) => CaseRefillScreen(),
-      //   Routes.homeScreen: (context) => MainScreen()
-      // },
+      initialRoute: Routes.homeScreen,
+      routes: {
+        Routes.welcomeScreen: (context) => WelcomeScreen(),
+        Routes.regScreen: (context) => RegScreen(),
+        Routes.codeScreen: (context) => CodeInputScreen(),
+        Routes.addPINScreen: (context) => AddPINScreen(),
+        Routes.accountHelloFirstScreen: (context) => AccountHelloScreen(),
+        Routes.accountHelloSecondScreen: (context) => AccountHelloSecondScreen(),
+        Routes.inDevelopingScreen: (context) => InDevelopingScreen(showBack: true,),
+        Routes.mainAddScreen: (context) => CaseRefillScreen(),
+        Routes.mainAddDoneScreen: (context) => CaseRefillDoneScreen(),
+        Routes.homeScreen: (context) => MainScreen()
+      },
     );
   }
 }

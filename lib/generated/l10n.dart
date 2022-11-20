@@ -490,10 +490,10 @@ class S {
     );
   }
 
-  /// `Валюты`
+  /// `Валюта`
   String get caseMainCurrencies {
     return Intl.message(
-      'Валюты',
+      'Валюта',
       name: 'caseMainCurrencies',
       desc: '',
       args: [],

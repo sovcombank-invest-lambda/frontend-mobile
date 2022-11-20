@@ -13,4 +13,5 @@ class A {
 
   static const String assetsSovcombankBackground = "images/sovcombank_background.png";
   static const String assetsChina = "images/china.png";
+  static const String assetsCatalog = "images/catalog.png";
 }

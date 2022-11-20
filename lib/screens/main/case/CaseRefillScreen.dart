@@ -6,6 +6,7 @@ import 'package:mobile_client/ui/Buttons.dart';
 import 'package:mobile_client/ui/Fields.dart';
 import 'package:mobile_client/ui/Sliders.dart';
 
+import '../../../common_setup/Routes.dart';
 import '../../../generated/l10n.dart';
 import '../../../services/ColorService.dart';
 import 'CaseRefillAccountWidget.dart';
@@ -126,7 +127,7 @@ class _CaseRefillScreenState extends State<CaseRefillScreen> {
               child: PrimaryButton(
                   colorService: colorService,
                   title: S.current.caseRefillAdd,
-                  onTap: () => Navigator.pop(context)),
+                  onTap: () => Navigator.pushNamedAndRemoveUntil(context, Routes.mainAddDoneScreen, (route) => false)),
             )
           ],
         ),

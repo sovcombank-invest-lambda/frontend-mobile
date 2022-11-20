@@ -45,7 +45,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "buttonOK": MessageLookupByLibrary.simpleMessage("Ок"),
         "caseMainAdd": MessageLookupByLibrary.simpleMessage("Пополнить"),
         "caseMainAllTime": MessageLookupByLibrary.simpleMessage("за все время"),
-        "caseMainCurrencies": MessageLookupByLibrary.simpleMessage("Валюты"),
+        "caseMainCurrencies": MessageLookupByLibrary.simpleMessage("Валюта"),
         "caseMainGet": MessageLookupByLibrary.simpleMessage("Вывести"),
         "caseMainHistory": MessageLookupByLibrary.simpleMessage("История"),
         "caseMainTitle": MessageLookupByLibrary.simpleMessage("Мои счета"),

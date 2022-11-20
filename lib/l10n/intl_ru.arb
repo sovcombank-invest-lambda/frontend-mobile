@@ -51,12 +51,12 @@
   "caseMainHistory": "История",
   "caseMainAdd": "Пополнить",
   "caseMainGet": "Вывести",
-  "caseMainCurrencies": "Валюты",
+  "caseMainCurrencies": "Валюта",
 
   "chinaMoneyText": "Юань (CNY)",
   "chinaProfitText": "Прогнозируемая доходность: 2,3% за 1 неделю",
   "chinaNewsText": "Банковский сектор Китая растет вместе\nс восстановлением экономики",
 
-  "buttonOK": "Ок",
+  "buttonOK": "Ок"
 
 }
