@@ -55,22 +55,22 @@ class _CaseRefillDoneScreenState extends State<CaseRefillDoneScreen> {
                                     fontSize: 36),
                               ),
                               const SizedBox(height: 16),
-                              Container(
-                                height: 35,
-                                decoration: const BoxDecoration(
-                                    color: Color(0xffE5EAF0),
-                                    shape: BoxShape.circle),
-                                padding: EdgeInsets.all(9),
-                                child: Image.asset("images/money.png"),
+                              Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: <Widget>[
+                                  CircleButton(
+                                    colorService: colorService,
+                                    icon: Icons.restore,
+                                    color: colorService.primaryColor(),
+                                    onTap: () => Navigator.pushNamed(context, Routes.inDevelopingScreen),
+                                  ),
+                                  const SizedBox(
+                                    height: 6,
+                                  ),
+                                  Text(S.current.caseMainHistory,
+                                      style: const TextStyle(fontSize: 12))
+                                ],
                               ),
-                              const SizedBox(height: 7),
-                              const Text(
-                                "История",
-                                style: TextStyle(
-                                    fontWeight: FontWeight.w400,
-                                    fontSize: 10,
-                                    color: Colors.black),
-                              )
                             ],
                           ),
                         ),

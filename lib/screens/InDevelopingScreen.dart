@@ -61,6 +61,9 @@ class InDevelopingScreen extends StatelessWidget {
                     Text(
                       S.current.inDevelopingText3,
                       style: const TextStyle(fontSize: 12.0),
+                    ),
+                    SizedBox(
+                      height: 8,
                     )
                   ],
                 ),

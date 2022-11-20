@@ -21,7 +21,7 @@ class CaseMainAccountWidget extends StatelessWidget {
             height: 150,
             width: double.infinity,
             decoration: BoxDecoration(
-                borderRadius: BorderRadius.vertical(top: Radius.circular(16)),
+                borderRadius: const BorderRadius.vertical(top: Radius.circular(16)),
                 color: colorService.backgroundCurrencySliderColor()),
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 40.0),
@@ -36,17 +36,17 @@ class CaseMainAccountWidget extends StatelessWidget {
                     backgroundColor: colorService.defaultColor(),
                     padding: const EdgeInsets.symmetric(horizontal: 12),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 15,
                   ),
-                  Text('1 244,80 ₽',
+                  const Text('1 244,80 ₽',
                       style:
                           TextStyle(fontSize: 32, fontWeight: FontWeight.w500)),
-                  SizedBox(
+                  const SizedBox(
                     height: 15,
                   ),
                   Text('+94.3 ₽  (8,97%) ' + S.current.caseMainAllTime),
-                  SizedBox(
+                  const SizedBox(
                     height: 15,
                   ),
                 ],
@@ -55,7 +55,7 @@ class CaseMainAccountWidget extends StatelessWidget {
           ),
           Container(
             height: 90,
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
                 borderRadius:
                     BorderRadius.vertical(bottom: Radius.circular(16)),
                 color: Colors.white),
@@ -71,11 +71,11 @@ class CaseMainAccountWidget extends StatelessWidget {
                       color: colorService.unenabledTextColor(),
                       onTap: () => Navigator.pushNamed(context, Routes.inDevelopingScreen),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 6,
                     ),
                     Text(S.current.caseMainHistory,
-                        style: TextStyle(fontSize: 12))
+                        style: const TextStyle(fontSize: 12))
                   ],
                 ),
                 Column(
@@ -87,10 +87,10 @@ class CaseMainAccountWidget extends StatelessWidget {
                       color: colorService.primaryColor(),
                       onTap: () => Navigator.pushNamed(context, Routes.mainAddScreen),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 6,
                     ),
-                    Text(S.current.caseMainAdd, style: TextStyle(fontSize: 12))
+                    Text(S.current.caseMainAdd, style: const TextStyle(fontSize: 12))
                   ],
                 ),
                 Column(
@@ -102,12 +102,12 @@ class CaseMainAccountWidget extends StatelessWidget {
                       color: colorService.unenabledTextColor(),
                       onTap: () => Navigator.pushNamed(context, Routes.inDevelopingScreen),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 6,
                     ),
                     Text(
                       S.current.caseMainGet,
-                      style: TextStyle(fontSize: 12),
+                      style: const TextStyle(fontSize: 12),
                     )
                   ],
                 ),
